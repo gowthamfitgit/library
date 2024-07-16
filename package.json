@@ -1,11 +1,11 @@
 {
-  "name": "mariyanotask",
+  "name": "kalpaslibrary",
   "version": "1.0.0",
   "description": "Write a simple backend to accept team entries for a fantasy cricket app (similar to Dream11) and process the results based on match results. Use Node.js backend with express for API and MongoDB for database. Core packages are pre-installed with a dev database connection to MongoDB Atlas. You are free to add additional libraries for validation, etc.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=dev && nodemon server.js"
+    "start": "nodemon server.js"
   
   },
   "type": "module",
