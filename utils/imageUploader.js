@@ -4,8 +4,8 @@ import { initializeApp } from "firebase/app";
 import {getDownloadURL, getStorage, ref, uploadBytes} from "firebase/storage"
 import { v4 as uuidv4 } from "uuid";
 
-// dotenv.config({path:`./env/.env.${ENV}`})
-dotenv.config()
+dotenv.config({path:`./env/.env.${ENV}`})
+
 
 
 

@@ -8,9 +8,9 @@ import router from "./routers/router.js"
 import { ImageUpload } from "./utils/imageUploader.js";
 
 
-dotenv.config()
 
-// dotenv.config({path:`./env/.env.${ENV}`})
+
+dotenv.config({path:`./env/.env.${ENV}`})
 
 
 const app = express()
